@@ -12,12 +12,15 @@ public class NonStaticMembersDemo {
 
     public static void main(String[] args) {
         System.out.println("Inside the main method");
-        new NonStaticMembersDemo();
-        new NonStaticMembersDemo();
-        new NonStaticMembersDemo();
+        NonStaticMembersDemo obj = new NonStaticMembersDemo();
+        obj.doSomething();
     }
 
     static {
         System.out.println("Inside the static block");
+    }
+
+    void doSomething() {
+        System.out.println("Inside doSomething");
     }
 }
