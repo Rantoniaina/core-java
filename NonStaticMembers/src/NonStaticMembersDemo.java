@@ -13,5 +13,11 @@ public class NonStaticMembersDemo {
     public static void main(String[] args) {
         System.out.println("Inside the main method");
         new NonStaticMembersDemo();
+        new NonStaticMembersDemo();
+        new NonStaticMembersDemo();
+    }
+
+    static {
+        System.out.println("Inside the static block");
     }
 }
