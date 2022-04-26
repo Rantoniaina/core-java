@@ -13,6 +13,6 @@ public class DataTypesDemo {
 
         byte h = 20;
 
-        int result = a + h;
+        byte result = (byte)(a + h);
     }
 }
