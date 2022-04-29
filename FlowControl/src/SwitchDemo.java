@@ -1,13 +1,11 @@
 public class SwitchDemo {
     public static void main(String[] args) {
-        int x = 2;
+        int x = 1;
 
         switch (x) {
             case 1:
-                System.out.println("Case 1");
-                break;
             case 2:
-                System.out.println("Case 2");
+                System.out.println("Commom logic");
                 break;
             default:
                 System.out.println("Default");
