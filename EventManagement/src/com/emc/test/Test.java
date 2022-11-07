@@ -11,10 +11,7 @@ public class Test {
         System.out.println(organizer);
         System.out.println(organizer.name);
 
-        Event event = new Event();
-        event.id = 456l;
-        event.name = "Iphone 100 launch";
-        event.description = "Grand launch";
+        Event event = new Event(456l, "Iphone 100 launch", "Iphone 100 launch");
         System.out.println(event.description);
     }
 }
