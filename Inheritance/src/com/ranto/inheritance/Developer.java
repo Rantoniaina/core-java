@@ -5,6 +5,7 @@ public class Developer extends Employee {
 
     public Developer(int id, String name, String dept, double salary, String technology) {
         super(id, name, dept, salary);
+        System.out.println("Inside Developer Constructor");
         this.technology = technology;
     }
 

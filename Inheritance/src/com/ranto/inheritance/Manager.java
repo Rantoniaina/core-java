@@ -5,6 +5,7 @@ public class Manager extends Employee {
 
     public Manager(int id, String name, String dept, double salary, String[] projects) {
         super(id, name, dept, salary);
+        System.out.println("Inside Manager Constructor");
         this.projects = projects;
     }
 
