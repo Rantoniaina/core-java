@@ -4,4 +4,8 @@ public abstract class BMW {
     }
 
     abstract void accelerate();
+
+    public static void main(String[] args) {
+        System.out.println("Inside the main method");
+    }
 }

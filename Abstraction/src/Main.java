@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ThreeSeries threeSeries = new ThreeSeries();
+        threeSeries.accelerate();
+        threeSeries.commonFn();
+
+        FiveSeries fiveSeries = new FiveSeries();
+        fiveSeries.accelerate();
+        fiveSeries.commonFn();
     }
 }
