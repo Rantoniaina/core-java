@@ -1,4 +1,4 @@
-package superkeyword;
+package moreinheritanceconcepts;
 
 public class Child extends Parent {
     int c, d;
